@@ -16,7 +16,7 @@ export function groupImports(groups: GroupConfig, importModuleList: ImportModule
 	const groupedImports = groups.map(group => {
 		const filteredLines = notGroupedImports.filter(line => group.some(item => line.path.startsWith(item)));
 
-		notGroupedImports = notGroupedImports.filter(line => !group.some(item => line.path.includes(item)));
+		notGroupedImports = notGroupedImports.filter(line => !group.some(item => line.path.startsWith(item)));
 
 		return filteredLines;
 	});
