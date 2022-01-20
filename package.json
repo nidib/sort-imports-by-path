@@ -38,7 +38,7 @@
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
-		"getmocks": "cp -r ./src/__tests__/mocks/ ./out/__tests__/mocks/",
+		"getmocks": "mkdir -p ./out/__tests__/mocks && cp ./src/__tests__/mocks/* \"$_\"",
 		"compile": "npm run getmocks && tsc -p ./",
 		"watch": "tsc -watch -p ./",
 		"pretest": "npm run compile && npm run lint",
