@@ -1,7 +1,7 @@
 # Changelog
 
-## Version 0.2.3-alpha
+## Version 0.2.3
 * Updates README
 
-## Version 0.2.2-alpha
+## Version 0.2.2
 * Adds changelog
