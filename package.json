@@ -1,13 +1,13 @@
 {
 	"name": "sort-imports-by-path",
-	"displayName": "sort-imports-by-path",
+	"displayName": "Sort imports by paths",
 	"description": "Sort imports by absolute paths",
 	"publisher": "richard-bidin",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/nidib/sort-imports-by-path"
 	},
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.63.0"
 	},

@@ -20,10 +20,6 @@ function main() {
 			importModules = getImportModuleList(selectedStrings);
 			orderedImportModuleList = getOrderedImportModuleList(importModules, groups);
 			orderedPlainText = orderedImportModuleList.map(item => item.line).join('\n');
-
-			if (1) {
-				throw new Error();
-			}
 	
 			activeTextEditor.edit(editBuilder => {
 				activeTextEditor.selections.forEach(selection => {
