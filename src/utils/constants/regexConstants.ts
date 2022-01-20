@@ -1,0 +1,1 @@
+export const importRegex: RegExp = /import(?:["'\s]*([\w*${}\n\r\t, ]+) from *)?["'\s]["'\s](.*[@\w_-]+)["'\s].*;/igm;
